@@ -11,20 +11,42 @@ h1 {
 }
 
 .post {
-  background: white;
-  border: 1px solid #ddd;
+  position: relative;
+  width: 400px;
   margin: 20px auto;
-  width: 300px;
+  border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 8px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.post img {
+ .post img {
   width: 100%;
+  display: block;
   border-radius: 8px;
+} 
+
+.date {
+  float: right;       
+  font-size: 12px;
+  color: gray;
+  font-family: Arial, sans-serif;
 }
 
-.post p {
-  text-align: left;
-  font-size: 14px;
+.note {
+  float: left;        
+  font-size: 12px;
+  color: darkslategray;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.header{
+  padding: 10px;
+}
+.photo{
+  width: 400px; 
+  height: 400px;
+  overflow: hidden;
+  margin-top: 10px;
 }
