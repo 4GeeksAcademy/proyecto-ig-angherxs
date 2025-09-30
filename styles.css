@@ -42,11 +42,24 @@ h1 {
   margin: 0;
 }
 .header{
-  padding: 10px;
+  padding: 20px;
 }
 .photo{
   width: 400px; 
   height: 400px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.header2{
+  padding: 20px;
+}
+
+.header3{
+padding: 20px;
+}
+.photo-post{
+  width: 400px; 
+  height: 200px;
   overflow: hidden;
   margin-top: 10px;
 }
